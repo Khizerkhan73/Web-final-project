@@ -1,0 +1,59 @@
+.edit-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content form input,
+  .modal-content form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .modal-content form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2b2a26;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content form button:hover {
+    background-color: #2b2a26;
+  }
+  
+  .modal-content button:last-child {
+    margin-top: 10px;
+    background-color: #181717;
+  }
+  
+  .modal-content button:last-child:hover {
+    background-color: #141313;
+  }
+  

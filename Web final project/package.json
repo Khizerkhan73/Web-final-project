@@ -1,0 +1,42 @@
+{
+  "name": "once",
+  "version": "1.4.0",
+  "description": "Run a function exactly one time",
+  "main": "once.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "mysql2": "^3.11.4",
+    "wrappy": "1"
+  },
+  "devDependencies": {
+    "tap": "^21.0.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "files": [
+    "once.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/once"
+  },
+  "keywords": [
+    "once",
+    "function",
+    "one",
+    "single"
+  ],
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "license": "ISC"
+}

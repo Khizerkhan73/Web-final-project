@@ -1,0 +1,191 @@
+.accessories-category {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .accessories-header {
+    margin-bottom: 30px;
+  }
+  
+  .accessories-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .accessories-products h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image-container {
+    position: relative;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .sale-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 5px;
+  }
+  
+  .sale-price {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .product-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .action-btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .action-btn.add-to-cart {
+    background-color: black;
+    color: white;
+  }
+  
+  .action-btn.add-to-cart:hover {
+    background-color: #333;
+  }
+  
+  .action-btn.edit {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .action-btn.edit:hover {
+    background-color: #181715;
+  }
+  
+  .action-btn.delete {
+    background-color: #0a0909;
+    color: white;
+  }
+  
+  .action-btn.delete:hover {
+    background-color: #101010;
+  }
+  
+  .add-product-form {
+    margin-top: 30px;
+  }
+  
+  .add-product-form h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .add-product-form input {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-product-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-product-form button:hover {
+    background-color: #333;
+  }
+  
+  .edit-product-form {
+    margin-top: 30px;
+  }
+  
+  .edit-product-form h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .edit-product-form input {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .edit-product-form button {
+    padding: 10px 15px;
+    border: none;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-product-form button:hover {
+    background-color: #333;
+  }
+  
